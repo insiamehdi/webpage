@@ -1,0 +1,188 @@
+body{
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.head img{
+    width: 2cm;
+    border-radius: 30%;
+    position: absolute;
+    margin-left: 2cm;
+}
+
+.head h1{
+  
+    font-size: 550%;
+    font-style: italic;
+    font-family: monospace;
+    font-weight: bolder;
+    margin: auto;
+    text-align: center;
+    margin-top: 1cm;
+}
+
+
+.department{
+    background-color: #bfe84f;
+    padding: 0.1%;
+}
+
+.department h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 180%;
+    text-decoration: underline;
+}
+.department p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-right: 1cm;
+}
+.department span1{
+    color: rgb(42, 65, 194);
+}
+.department span2{
+    color: rgb(30, 20, 172);
+}
+
+.department span3{
+    color: rgb(31, 34, 185);
+}
+.department img{
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 69%;
+}
+
+.tab{
+    background-color: #ffffff;
+}
+
+.tab table{
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+    height: 13cm;
+    
+}
+.tab td{
+ border: 1px solid black;
+ text-align: center;
+ height: 50;
+ width: 100;
+ background-color: rgb(0, 85, 141);
+}
+
+.tab h1{
+    text-align: center;
+}
+.tab2{
+    background-color: #ac36da;
+}
+.tab2 h1{
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tab2 table{
+    border: 1px solid rgb(41, 48, 0);
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    background-color: rgb(175, 35, 145);
+}
+.tab2 thead{
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.tab2 tr{
+    border: 1px solid #ddd;
+    padding: 0.35em;
+}
+
+.tab2 tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.nav li a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color: #555;
+  color: white;
+}
+.nav h5{
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bolder;
+}
+/* THIRD SECTION */
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
+.frame3 {
+    border-radius: 5px;
+    background-color: #d4320a;
+    padding: 20px;
+  }
+.vid{
+    margin-left:20px;
+    margin-right: 20px;
+}
+.vid video{
+    width:100%;
+    border-radius: 10%;
+}
+
+.vid1{
+    margin-left:20px;
+    margin-right: 20px;
+}
+.vid1 video{
+    width:100%;
+    border-radius: 10%;
+}
